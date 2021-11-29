@@ -31,4 +31,4 @@ debut
       Ecrire(mat[i,_i_]);
     fait;
   fait;
-fin;
+Fin.
