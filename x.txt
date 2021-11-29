@@ -1,0 +1,34 @@
+Algorith who_cares;
+var
+  mat: tableux[n..20,n..30] d'entier;
+  x,i,_i_,N,M:entier;
+debut
+
+  /*N here*/
+
+  repeter
+     Ecrire("entrer N"); lire (N);
+  jusqu'a(N<=20 et N>0);
+
+  /*M here*/
+
+  repeter
+     Ecrire("entrer M"); lire (M);
+  jusqu'a(M<=30 et M>0);
+
+  /*Enter values*/
+
+  ecrire("entrer les valeurs");
+  pour i <- 1 a N faire
+    pour _i_ <- 1 a M faire
+      lire(x);
+      mat[i,_i_] = x;
+    fait;
+  fait;
+  /*Output all elements of mat*/
+  pour i <- 1 a N faire
+    pour _i_ <- 1 a M faire
+      Ecrire(mat[i,_i_]);
+    fait;
+  fait;
+fin;
